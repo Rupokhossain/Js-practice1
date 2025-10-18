@@ -175,11 +175,139 @@
 // console.log(isEven(110));
 
 
-function number(num) {
-    if(num > 10) {
-        return true;
-    } else {
-        return false;
+// function number(num) {
+//     if(num > 10) {
+//         return true;
+//     } else {
+//         return false;
+//     }
+// }
+// console.log(number(15));
+
+
+
+// function evenSizedString(str) {
+//     const size = str.length;
+
+//     if(size % 2 === 0) {
+//         console.log("Even Size");
+//     } else {
+//         console.log("Odd Size");
+//     }
+// }
+// evenSizedString("Dhaka");
+
+
+
+// function doubleOrTriple(num, doDouble) {
+//     if(doDouble === true) {
+//         const result = num * 2;
+//         return result;
+//     } else {
+//         const result = num * 3;
+//         return result;
+//     }
+// }
+// console.log(doubleOrTriple(5, true));
+// console.log(doubleOrTriple(5, false));
+
+
+
+
+// function numberOfElement(num) {
+//     const len = num.length;
+//     return len;
+// }
+// const len = numberOfElement([12, 45, 78, 45, 123432, 4, 5]);
+// console.log(len);
+
+
+// function checkEvenOdd(numbersArray) {
+//     for(const number of numbersArray) {
+//         if(number % 2 === 0) {
+//             console.log(`${number} Is Even Number`);
+//         } else {
+//             console.log(`${number} Is Odd Number`);
+//         }
+//     }
+// } 
+
+// const myNumbers = [12, 21, 40, 55, 60];
+// checkEvenOdd(myNumbers);
+
+
+
+// function sumOfNumbers(numbers) {
+//     // console.log(numbers);
+
+//     for(const number of numbers) {
+//         console.log(number);
+//     }
+// }
+// const result = sumOfNumbers([12, 45, 6, 8, 14]);
+// console.log(result);
+
+
+// function sumOfNumbers(numbers) {
+//     let sum = 0;
+//     for(const number of numbers) {
+//         sum = sum + number;
+//         // console.log(sum);
+//     }
+//     return sum;
+// }
+// const num = [54, 62, 12, 6];
+// const sum = sumOfNumbers(num);
+// console.log("Sum of Numbers is", sum);
+
+
+// function evenNumberSum(numbers) {
+//     let sum = 0;
+//     for(const number of numbers) {
+//         if(number % 2 === 0) {
+//             sum = sum + number;
+//         }
+//     }
+//     return sum;
+// }
+
+// const num = [54, 13, 1, 6];
+// const total = evenNumberSum(num);
+// console.log("Sum of even numbers is ", total);
+
+
+// function oddNumberSum(numbers) {
+//     let sum = 0;
+
+//     for(const number of numbers) {
+//         if(number % 2 == 1) {
+//             sum = sum + number;
+//         }
+//     }
+//     return sum;
+// }
+
+// const num = [54, 13, 1, 6];
+// const total = oddNumberSum(num);
+// console.log("Sum Of Odd Numbers: ", total);
+
+
+function findSmallerOfFirstTwo(arr) {
+    if(arr.length < 2) {
+        return "Need Two Numbers";
     }
+
+    const num1 = arr[0];
+    const num2 = arr[1];
+
+    if(num1 < num2) {
+        return num1;
+    } else {
+        return num2;
+    }
+
 }
-console.log(number(15));
+
+const number1 = [15, 8, 25, 4];
+const smallerNumber = findSmallerOfFirstTwo(number1);
+console.log(smallerNumber);

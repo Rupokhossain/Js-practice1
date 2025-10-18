@@ -1,0 +1,86 @@
+🧩 Problem 1: Even Number Finder
+
+🧩 Problem 1: Even Number Finder
+
+একটা ফাংশন লেখো findEvenNumbers(arr)
+যেটা একটা সংখ্যার array ইনপুট নেবে এবং শুধুমাত্র জোড় সংখ্যা (even numbers) console এ দেখাবে।
+
+// Example:
+findEvenNumbers([1, 2, 3, 4, 5, 6]);
+// Output: 2, 4, 6
+
+🧩 Problem 2: Count Positive Numbers
+
+একটা ফাংশন লেখো countPositive(arr)
+যেটা array এর মধ্যে কয়টা positive number আছে সেটা return করবে।
+
+// Example:
+countPositive([-5, 10, -2, 4, 0, 3]);
+// Output: 3
+
+🧩 Problem 3: Vote Eligibility Check
+
+একটা ফাংশন লেখো checkVoteEligibility(ageList)
+যেটা একটা age এর list নিবে, আর loop চালিয়ে console করবে কে কে ভোট দিতে পারবে (age >= 18)।
+
+// Example:
+checkVoteEligibility([12, 18, 25, 15]);
+// Output: 18, 25
+
+🧩 Problem 4: Sum of All Numbers
+
+একটা ফাংশন লেখো calculateSum(arr)
+যেটা array এর সব সংখ্যা যোগ করে মোট যোগফল (sum) return করবে।
+
+// Example:
+calculateSum([5, 10, 15]);
+// Output: 30
+
+🧩 Problem 5: Find Largest Number
+
+একটা ফাংশন লেখো findLargest(arr)
+যেটা array এর মধ্যে থেকে সবচেয়ে বড় সংখ্যা return করবে।
+
+// Example:
+findLargest([4, 9, 1, 22, 7]);
+// Output: 22
+
+// Example:
+findEvenNumbers([1, 2, 3, 4, 5, 6]);
+// Output: 2, 4, 6
+
+🧩 Problem 2: Count Positive Numbers
+
+একটা ফাংশন লেখো countPositive(arr)
+যেটা array এর মধ্যে কয়টা positive number আছে সেটা return করবে।
+
+// Example:
+countPositive([-5, 10, -2, 4, 0, 3]);
+// Output: 3
+
+🧩 Problem 3: Vote Eligibility Check
+
+একটা ফাংশন লেখো checkVoteEligibility(ageList)
+যেটা একটা age এর list নিবে, আর loop চালিয়ে console করবে কে কে ভোট দিতে পারবে (age >= 18)।
+
+// Example:
+checkVoteEligibility([12, 18, 25, 15]);
+// Output: 18, 25
+
+🧩 Problem 4: Sum of All Numbers
+
+একটা ফাংশন লেখো calculateSum(arr)
+যেটা array এর সব সংখ্যা যোগ করে মোট যোগফল (sum) return করবে।
+
+// Example:
+calculateSum([5, 10, 15]);
+// Output: 30
+
+🧩 Problem 5: Find Largest Number
+
+একটা ফাংশন লেখো findLargest(arr)
+যেটা array এর মধ্যে থেকে সবচেয়ে বড় সংখ্যা return করবে।
+
+// Example:
+findLargest([4, 9, 1, 22, 7]);
+// Output: 22
